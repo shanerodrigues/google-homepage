@@ -1,0 +1,58 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+#navbar{
+    font-size: 56px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 0px 4px;
+}
+
+li a:hover{
+    text-decoration: underline;
+  }
+
+.right{
+    float: right;
+}
+
+#signup-button{
+    background: #4285f4;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px 5px;
+    text-decoration: none;
+
+}
+
+#signup-button:hover{
+    box-shadow: 12px #4c8aed;
+    background: #4c8aed;
+}
+
+#apps-menu:hover{
+    background: rgb(233, 233, 233);
+    border-radius: 25px 25px;
+
+}
