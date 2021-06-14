@@ -70,7 +70,7 @@ button:hover{
     font-size: 56px;
 }
 
-ul{
+.nav-ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -78,11 +78,11 @@ ul{
     background-color: white;
 }
 
-li {
+.nav-ul li {
     float: left;
 }
 
-li a {
+.nav-ul li a {
     display: block;
     color: black;
     text-align: center;
@@ -93,11 +93,11 @@ li a {
     margin: 0px 4px;
 }
 
-li a:hover{
+.nav-ul li a:hover{
     text-decoration: underline;
   }
 
-.right{
+.nav-ul .right{
     float: right;
 }
 
@@ -123,3 +123,62 @@ li a:hover{
     background: rgb(233, 233, 233);
     border-radius: 25px 25px;
 }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(233, 233, 233);
+    color: grey;
+    text-align: start;
+  }
+
+p{
+    padding-left: 35px;
+}
+
+@media screen and (max-width: 768px) {
+    .second-footer{
+        border-top: 0.8px solid lightgrey;
+        display: flex;
+        justify-content: center;
+    }
+  }
+
+.second-footer{
+    border-top: 0.8px solid lightgrey;
+    /* padding-right: 2%; */
+    padding-left: 16px;
+}
+
+.footer-ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+.footer-ul li {
+    float: left;
+}
+
+.footer-ul .right{
+    float: right;
+}
+
+.footer-ul li a {
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 15px 14px;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 0px 4px;
+}
+
+.footer-ul li a:hover{
+    text-decoration: underline;
+  }
