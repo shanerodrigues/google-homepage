@@ -51,8 +51,11 @@ li a:hover{
     background: #4c8aed;
 }
 
+#apps-menu{
+    padding: 8px 5px 2px 5px;
+}
+
 #apps-menu:hover{
     background: rgb(233, 233, 233);
     border-radius: 25px 25px;
-
 }
